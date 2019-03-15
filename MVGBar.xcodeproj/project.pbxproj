@@ -14,6 +14,11 @@
 		FF815B13223C289A006FDF8F /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF815B12223C289A006FDF8F /* ParameterEncoding.swift */; };
 		FF815B15223C4E46006FDF8F /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF815B14223C4E46006FDF8F /* Result.swift */; };
 		FF815B17223C4FEF006FDF8F /* AnyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF815B16223C4FEF006FDF8F /* AnyError.swift */; };
+		FF815B19223C532B006FDF8F /* NetworkingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF815B18223C532B006FDF8F /* NetworkingProvider.swift */; };
+		FF815B1B223C548C006FDF8F /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF815B1A223C548C006FDF8F /* Response.swift */; };
+		FF815B1D223C54AF006FDF8F /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF815B1C223C54AF006FDF8F /* Mappable.swift */; };
+		FF815B1F223C5511006FDF8F /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF815B1E223C5511006FDF8F /* NetworkingError.swift */; };
+		FF815B21223C55C7006FDF8F /* JsonMappingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF815B20223C55C6006FDF8F /* JsonMappingError.swift */; };
 		FFA56DD222339C9F007D385D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA56DD122339C9F007D385D /* AppDelegate.swift */; };
 		FFA56DD622339CA1007D385D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFA56DD522339CA1007D385D /* Assets.xcassets */; };
 		FFA56DD922339CA1007D385D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA56DD722339CA1007D385D /* Main.storyboard */; };
@@ -41,6 +46,11 @@
 		FF815B12223C289A006FDF8F /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
 		FF815B14223C4E46006FDF8F /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		FF815B16223C4FEF006FDF8F /* AnyError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyError.swift; sourceTree = "<group>"; };
+		FF815B18223C532B006FDF8F /* NetworkingProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingProvider.swift; sourceTree = "<group>"; };
+		FF815B1A223C548C006FDF8F /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		FF815B1C223C54AF006FDF8F /* Mappable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mappable.swift; sourceTree = "<group>"; };
+		FF815B1E223C5511006FDF8F /* NetworkingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingError.swift; sourceTree = "<group>"; };
+		FF815B20223C55C6006FDF8F /* JsonMappingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonMappingError.swift; sourceTree = "<group>"; };
 		FFA56DCE22339C9F007D385D /* MVGBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVGBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFA56DD122339C9F007D385D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFA56DD522339CA1007D385D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,6 +90,11 @@
 				FF815B12223C289A006FDF8F /* ParameterEncoding.swift */,
 				FF815B10223C25C5006FDF8F /* Service.swift */,
 				FF815B16223C4FEF006FDF8F /* AnyError.swift */,
+				FF815B18223C532B006FDF8F /* NetworkingProvider.swift */,
+				FF815B1A223C548C006FDF8F /* Response.swift */,
+				FF815B1C223C54AF006FDF8F /* Mappable.swift */,
+				FF815B1E223C5511006FDF8F /* NetworkingError.swift */,
+				FF815B20223C55C6006FDF8F /* JsonMappingError.swift */,
 				FF815B14223C4E46006FDF8F /* Result.swift */,
 				FF815B0C223C2499006FDF8F /* HTTPMethod.swift */,
 			);
@@ -231,10 +246,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF815B17223C4FEF006FDF8F /* AnyError.swift in Sources */,
+				FF815B21223C55C7006FDF8F /* JsonMappingError.swift in Sources */,
+				FF815B1D223C54AF006FDF8F /* Mappable.swift in Sources */,
 				FFA56DD222339C9F007D385D /* AppDelegate.swift in Sources */,
+				FF815B19223C532B006FDF8F /* NetworkingProvider.swift in Sources */,
+				FF815B1F223C5511006FDF8F /* NetworkingError.swift in Sources */,
 				FF815B11223C25C5006FDF8F /* Service.swift in Sources */,
 				FFA56DF62233A536007D385D /* DepartureView.swift in Sources */,
 				FF815B13223C289A006FDF8F /* ParameterEncoding.swift in Sources */,
+				FF815B1B223C548C006FDF8F /* Response.swift in Sources */,
 				FF815B0D223C2499006FDF8F /* HTTPMethod.swift in Sources */,
 				FF815B0F223C24C0006FDF8F /* Environment.swift in Sources */,
 				FF815B15223C4E46006FDF8F /* Result.swift in Sources */,
